@@ -79,12 +79,16 @@ int main()
 
     Mat img;
 
+    int counter = 0;
+
     while(1){ 
         
         // uncomment this if IP camera is having delay, and comment cap >> img
         //cap.grab();
         //if(counter%5 != 0) continue;
         //cap.retrieve(img);
+
+        counter++;
 
 	    cap >> img;
 
